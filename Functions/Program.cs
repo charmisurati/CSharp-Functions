@@ -48,7 +48,7 @@ namespace Functions
             }
             else activeData = "deactive";
 
-            Console.WriteLine($"{userDetails.Name} is {activeData} user"); 
+            Console.WriteLine($"{userDetails.Name} is {activeData} user!"); 
             return userDetails.IsActive;
 
         }
